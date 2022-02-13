@@ -9,6 +9,7 @@ font-family: 'Roboto', sans-serif; */
     --primary-dark: #000000;
     --primary-light: #ffffff;
     --adress-color: rgba(255, 255, 255, 0.6);
+    --btn-secondary-color: #188CE8;
     /* theme */
     --dark-theme-color: #2f303a;
     /* text */
@@ -78,6 +79,10 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-link.current {
     color: var(--accent-color);
 }
 
@@ -231,7 +236,7 @@ body {
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--accent-color);
+    background-color: var(--btn-secondary-color);
     border-radius: 4px;
     color: var(--primary-light);
 }
