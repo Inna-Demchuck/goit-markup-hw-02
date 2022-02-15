@@ -10,6 +10,7 @@ font-family: 'Roboto', sans-serif; */
     --primary-light: #ffffff;
     --adress-color: rgba(255, 255, 255, 0.6);
     --btn-secondary-color: #188CE8;
+    --btn-color: #F5F4FA;
     /* theme */
     --dark-theme-color: #2f303a;
     /* text */
@@ -20,6 +21,7 @@ font-family: 'Roboto', sans-serif; */
 body {
     font-family: var(--main-font);
     font-size: 14px;
+    font-weight: 400;
     color: var(--main-color);
     letter-spacing: 0.03em;
 }
@@ -232,8 +234,10 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    color: #212121;
+    color: var(--main-color);
     cursor: pointer;
+    background: var(--btn-color);
+    border-radius: 4px;
 }
 
 .btn:hover,
